@@ -1,0 +1,33 @@
+<!--
+  Generated template for the NewvaluesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>newvalues</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  Now we will show those new values that we set before:
+  {{example.someString}}<br>
+  {{example.someotherstring}}<br> <!-- that dang typo! -->
+  {{example.someNumber}}<br>
+  {{example.someBoolean}} <br>
+
+  And, since we assigned the original object to a param on the example object, here are the other values: <br>
+  {{example.somethingElseEntirely.someString}}<br>
+  {{example.somethingElseEntirely.someotherstring}}<br>
+  {{example.somethingElseEntirely.someBoolean}}<br>
+  {{example.somethingElseEntirely.someNumber}}<br>
+
+  <a (click)="weAreDoneHere()">Ok, we're done, let's go home, eat pizza and crush some code. </a>
+
+
+
+</ion-content>
